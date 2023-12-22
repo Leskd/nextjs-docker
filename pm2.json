@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "my-app",
+      "script": "node_modules/next/dist/bin/next",
+      "args": "start -p 8080",
+      "instances": "1",
+      "exec_mode": "cluster",
+      "env_beta": {
+        "APP_ENV": "beta"
+      }
+    }
+  ]
+}
